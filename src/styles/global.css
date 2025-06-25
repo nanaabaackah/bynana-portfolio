@@ -43,7 +43,6 @@ main {
 #sec_back-desktop {
         display: flex;
         position: relative;
-        
         font-weight: 400;
         font-style: normal;
         margin-bottom: auto;
@@ -1611,7 +1610,6 @@ main {
         align-items: center;
         margin-bottom: auto;
         justify-content: center;
-        
     }
     
     #sec_back-mobile {
@@ -1624,7 +1622,6 @@ main {
         font-style: normal;
         border-radius: 20px;
         width: 100%;
-        
     }
 
     #sec_back-desktop{

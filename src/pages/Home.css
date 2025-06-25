@@ -47,7 +47,6 @@ html, body {
     #dropdown {
         display: flex;
         flex-direction: row;
-        align-items: center;
         background-color: transparent;
         justify-content: center;
         width: 100%;
@@ -64,7 +63,6 @@ html, body {
         text-align: center;
         font-size: 1em;
         font-weight: bolder;
-        margin-top: 1em;
         color: white;
         list-style:none;
     }
@@ -78,10 +76,6 @@ html, body {
         position: relative;
     }
     
-    #dropdown li a:hover{
-        
-        color: var(--black);  
-    }
 
     #dropdown li a:focus{
         color: var(--border);
@@ -156,13 +150,23 @@ html, body {
         margin-top: 3em;
         position: relative;
         text-align: center;
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .social a{
         color: #ffffff;
-        margin-right: 1em;
         font-size: 2em;
+        margin-left: 1em;
+    }
+
+    .social a:first-child{
+        margin-left: 0em;
+    }
+
+    .social i:last-child{
+        margin-right: 0em;
     }
    
     
@@ -196,20 +200,18 @@ html, body {
 
 @media screen and (max-width: 550px) {
 
+
     #dropdown {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         background-color: transparent;
-        justify-content: center;
         width: 100%;
-        padding:0em;
+        margin-top: -4em;
     }
     
     #dropdown ul {
         display: flex;
         flex-direction: row;
-        padding: 0em;
+        justify-content: center;
+        align-items: center;
     }
     
     #dropdown li{
@@ -217,7 +219,6 @@ html, body {
         text-align: center;
         font-size: 1em;
         font-weight: bolder;
-        margin-top: 2em;
         color: white;
         letter-spacing: 1px;
     }
@@ -260,7 +261,7 @@ html, body {
         font-weight: bolder;
     }
     .social{
-        margin-top: 1em;
+        margin-top: 4em;
         position: relative;
         margin-bottom: 1em;
         display: flex;

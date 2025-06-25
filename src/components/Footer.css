@@ -180,13 +180,25 @@
       
 
 @media screen and (max-width: 850px) {
+
+    .site-footer {
+        display: flex;
+        flex-direction: column; 
+        position: relative;
+        justify-content: center;
+        width:100%;
+        bottom: 0;
+        padding:.5em ;
+        background-color: #4a3931;
+        min-height:200px;
+    }
     footer{
         display: flex;
         flex-direction: row;
         padding: 2em;
         position: relative;
         justify-content: center;
-        width: 100%;
+        width: 100vw;
     }
     
     .f-dropdown{
@@ -219,7 +231,7 @@
         margin-right: 0em;
         text-align: center;
         margin-left: 1.2em;
-        font-size: .5em;
+        font-size: .4em;
         font-weight: bolder;
     }
 
@@ -262,7 +274,7 @@
         position: relative;
         margin-right: .4em;
         text-align: center;
-        
+        font-size: 1em;
     }
     
     .f-social-icons a:hover { 
