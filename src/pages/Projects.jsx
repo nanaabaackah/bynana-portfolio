@@ -69,6 +69,22 @@ function Projects() {
                                             </div>
                                         </div>
                                     </div>
+                                    {/*<div className="col-md-3 text-center col-padding animate-box">
+                                        <div className="work" style={{ backgroundImage: "url(/imgs/21.png" }}>
+                                            <div className="desc">
+                                                <a href="/projects/reebs">Party Rental Website and ERP</a>
+                                            </div>
+                                        </div>
+                                        <button className="accordion-main">More</button>
+                                        <div className="panell">
+                                            <p>
+                                                Page under construction
+                                            </p>
+                                            <div className="link">
+                                                <a href="/projects/reebs">View</a>
+                                            </div>
+                                        </div>
+                                    </div>*/}
                                 </div>
                             </div>
                         </div>

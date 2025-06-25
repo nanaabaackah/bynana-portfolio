@@ -20,7 +20,7 @@ function Home() {
             </header>
             <section className="match-desktop">
             <div className="match__item--middle">
-                <img src="src/assets/bn-long-white.svg" alt="By Nana logo" />
+                <img src="/assets/bn-long-white.svg" alt="By Nana logo" />
                 <p>
                     Technical Front-End Developer • Odoo ERP • Data & Digital Strategy | Business Analyst
                 </p>

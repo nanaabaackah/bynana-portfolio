@@ -10,7 +10,7 @@ function Footer() {
             <div className="f-dropdown">
                 <nav>
                     <ul id="f-menu">
-                        <li className="f-logo"><a href="/"><img src="/src/assets/bn-long-white.svg"/></a></li>
+                        <li className="f-logo"><a href="/"><img src="/assets/bn-long-white.svg"/></a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/resume">Resume</a></li>
                         <li><a href="/projects">Projects</a></li>
