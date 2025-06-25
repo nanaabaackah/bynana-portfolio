@@ -52,9 +52,9 @@ function Contact() {
                         <div className="choose animate-box">
                             <ul className="social-icons">
                                 <a href="https://www.linkedin.com/in/nana-aba-ackah/" target="_blank"><li><FontAwesomeIcon icon={faLinkedin} /></li></a>
-                                <a href="https://github.com/nanaabaackah/portfolio.io" target="_blank"><li><FontAwesomeIcon icon={faGithub} /></li></a>
+                                <a href="https://github.com/nanaabaackah/" target="_blank"><li><FontAwesomeIcon icon={faGithub} /></li></a>
                                 <a href="mailto:nanaabaackah@gmail.com" ><li><FontAwesomeIcon icon={faEnvelope} /></li></a>
-                                <a href="documents/Nana Aba Ackah Resume.pdf" target="_onblank"><li><FontAwesomeIcon icon={faFilePdf} /></li></a>
+                                <a href="/documents/Nana Aba Ackah Resume.pdf" target="_onblank"><li><FontAwesomeIcon icon={faFilePdf} /></li></a>
                             </ul>
                         </div>
                         <div className="choose animate-box">

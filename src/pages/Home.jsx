@@ -28,7 +28,7 @@ function Home() {
                     <a href="https://www.linkedin.com/in/nana-aba-ackah/" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faLinkedinIn} />
                     </a>
-                    <a href="https://github.com/nanaabaackah/portfolio.io" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/nanaabaackah/" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faGithub} />
                     </a>
                     <a href="mailto:nanaabaackah@gmail.com">
@@ -52,7 +52,7 @@ function Home() {
             <a href="https://www.linkedin.com/in/nana-aba-ackah/" target="_blank" rel="noreferrer">
                 <i className="fa-brands fa-linkedin"></i>
             </a>
-            <a href="https://github.com/nanaabaackah/portfolio.io" target="_blank" rel="noreferrer">
+            <a href="https://github.com/nanaabaackah/" target="_blank" rel="noreferrer">
                 <i className="fa-brands fa-github"></i>
             </a>
             <a href="mailto:nanaabaackah@gmail.com">

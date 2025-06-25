@@ -20,9 +20,9 @@ function Footer() {
             </div>
             <div className="f-social-icons">
                 <a href="https://www.linkedin.com/in/nana-aba-ackah/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-                <a href="https://github.com/nanaabaackah/portfolio.io" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
+                <a href="https://github.com/nanaabaackah/" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
                 <a href="mailto:nanaabaackah@gmail.com" ><FontAwesomeIcon icon={faEnvelope} /></a>
-                <a href="documents/Nana Aba Ackah Resume.pdf" target="_blank"><FontAwesomeIcon icon={faFilePdf} /></a>
+                <a href="/documents/Nana Aba Ackah Resume.pdf" target="_blank"><FontAwesomeIcon icon={faFilePdf} /></a>
             </div>
             <span>&copy; 2025 - MADE TO MATTER. MADE BY NANA Styling design ideas from <a href="http://freehtml5.co/">FreeHTML5.co</a></span>
 
