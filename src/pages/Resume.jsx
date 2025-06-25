@@ -30,11 +30,11 @@ function Resume() {
                                                     </div>
                                                     <div className="timeline-body">
                                                         <ul className="exp">
-                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Spearheaded enhancements to internal IT infrastructure, improving system uptime, data flow, and team efficiency across departments.</li>
-                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Redesigned the internal company portal using Google Sites with embedded custom HTML, CSS, and JavaScript, resulting in a 10% boost in user engagement and reduced support requests.</li>
-                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Conducted advanced data analysis using BigQuery, Looker Studio, and SQL Server to create operational dashboards and executive-level reporting for resource planning.</li>
-                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Collaborated with Managed Service Providers (MSPs) to implement IT policies and security protocols, improving compliance and reducing downtime by 15%.</li>
-                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Assisted with the technical rollout of internal tools and digital process automation, including document workflows and staff onboarding improvements.</li>
+                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Spearheaded enhancements to internal IT infrastructure, <strong>improving system uptime</strong>, <strong>data flow</strong>, and <strong>team efficiency</strong> across departments.</li>
+                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Redesigned the internal company portal using <strong>Google Sites</strong> with embedded <strong>custom HTML, CSS, and JavaScript</strong>, resulting in a <strong>10% boost</strong> in user engagement and reduced support requests.</li>
+                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Conducted advanced <strong>data analysis</strong> using <strong>BigQuery, Looker Studio, and SQL Server </strong> to create operational dashboards and executive-level reporting for resource planning.</li>
+                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Collaborated with <strong></strong> to implement <strong>IT policies and security protocols</strong>, improving compliance and reducing downtime by 15%.</li>
+                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Assisted with the technical rollout of <strong>internal tools and digital process automation</strong>, including document workflows and staff onboarding improvements.</li>
                                                             <li><FontAwesomeIcon icon={faCodeCommit} /> Actively contributed to continuous improvement initiatives by providing system-level recommendations and supporting internal project launches.</li>
                                                         </ul>
                                                     </div>
@@ -49,14 +49,14 @@ function Resume() {
                                                     </div>
                                                     <div className="timeline-body">
                                                         <ul className="exp">
-                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Led  the end-to-end customization and deployment of the company’s Enterprise Resource Planning (ERP) system using Odoo.sh, enabling a 50% increase in process automation across five departments.</li>
-                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Managed the full tech stack: Python for backend logic, PostgreSQL for database operations, and XML/QWeb for custom front-end UI within CRM, Sales, Accounting, Project modules and all other modules.</li>
-                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Built and maintained custom API endpoints via Odoo controllers, integrating third-party services and internal applications to streamline workflows.</li>
-                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Used GitHub for version control, managing branches, merge requests, and deployment through Odoo.sh, enabling agile collaboration between devs and stakeholders.</li>
-                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Directed the company-wide ERP rollout and change management strategy, resulting in 90% user adoption within the first 3 months.</li>
-                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Developed data dashboards and UI enhancements using Odoo Studio, JavaScript, and HTML/CSS, increasing visibility for managers across projects and operations.</li>
-                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Led UAT sessions, provided technical documentation, and delivered training to over 20 employees to ensure long-term system sustainability.</li>
-                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Operated within Agile sprint cycles, supporting backlog prioritization, sprint reviews, and iterative optimization post-launch.</li>
+                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Led  the <strong>end-to-end customization</strong> and <strong>deployment</strong> of the company’s Enterprise Resource Planning (ERP) system using <strong>Odoo.sh</strong>, enabling a <strong>50% increase</strong> in process automation across five departments.</li>
+                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Managed the full tech stack: <strong>Python</strong> for backend logic, <strong>PostgreSQL</strong> for database operations, and <strong>XML/QWeb</strong> for custom <strong>front-end UI</strong> within CRM, Sales, Accounting, Project modules and all other modules.</li>
+                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Built and maintained custom <strong>API endpoints</strong> via Odoo controllers, <strong>integrating third-party services</strong> and internal applications to streamline workflows.</li>
+                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Used <strong>GitHub</strong> for <strong>version control</strong>, managing branches, merge requests, and deployment through Odoo.sh, enabling <strong>agile collaboration</strong> between devs and stakeholders.</li>
+                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Directed the <strong>company-wide ERP rollout</strong> and change management strategy, resulting in <strong>90% user adoption</strong> within the first 3 months.</li>
+                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Developed data dashboards and <strong>UI enhancements</strong> using <strong>Odoo Studio, JavaScript, and HTML/CSS</strong>, increasing visibility for managers across projects and operations.</li>
+                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Led <strong>UAT sessions</strong>, provided technical documentation, and delivered <strong>training to over 20 employees</strong> to ensure long-term system sustainability.</li>
+                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Operated within <strong>Agile sprint cycles</strong>, supporting backlog prioritization, sprint reviews, and iterative optimization post-launch.</li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -70,9 +70,9 @@ function Resume() {
                                                     </div>
                                                     <div className="timeline-body">
                                                         <ul className="exp">
-                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Developed and launched A/B-tested landing pages and WordPress microsites using Google Analytics insights to inform content personalization, resulting in a 12% increase in user engagement.</li>
-                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Aligned campaign execution with company product roadmaps through collaboration with sales and engineering teams.</li>
-                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Presented data-driven marketing insights and web metrics to leadership, influencing digital strategy.</li>
+                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Developed and launched <strong>A/B-tested landing pages</strong> and <strong>WordPress</strong> microsites using <stong>Google Analytics</stong> insights to inform content personalization, resulting in a 12% increase in user engagement.</li>
+                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Aligned <strong>campaign execution</strong> with company <strong>product roadmaps</strong> through collaboration with sales and engineering teams.</li>
+                                                            <li><FontAwesomeIcon icon={faCodeCommit} /> Presented <strong>data-driven marketing insights and web metrics</strong> to leadership, influencing digital strategy.</li>
                                                         </ul>
                                                     </div>
                                                 </div>

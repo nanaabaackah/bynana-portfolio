@@ -106,6 +106,7 @@ function Reconstruction() {
                                                                         
                                                         </td>
                                                     </tr>
+                                                    <hr />
                                                     <tr>
                                                         <td>
                                                             <div className="pic">
@@ -123,6 +124,7 @@ function Reconstruction() {
                                                                                    
                                                         </td>
                                                     </tr>
+                                                    <hr />
                                                     <tr>
                                                         <td>
                                                             <div className="pic">

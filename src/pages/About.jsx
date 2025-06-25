@@ -21,7 +21,7 @@ function About() {
                                         <a href="https://www.linkedin.com/in/nana-aba-ackah/" target="_blank"><li><FontAwesomeIcon icon={faLinkedinIn} /></li></a>
                                         <a href="https://github.com/nanaabaackah/portfolio.io" target="_blank"><li><FontAwesomeIcon icon={faGithub} /></li></a>
                                         <a href="mailto:nanaabaackah@gmail.com" ><li><FontAwesomeIcon icon={faEnvelope} /></li></a>
-                                        <a href="documents/Nana Aba Ackah Resume.pdf" target="_onblank"><li><FontAwesomeIcon icon={faFilePdf} /></li></a>
+                                        <a href="/documents/Nana Aba Ackah Resume.pdf" target="_onblank"><li><FontAwesomeIcon icon={faFilePdf} /></li></a>
                                     </ul>
                                 </div>
                             </div>
@@ -31,11 +31,11 @@ function About() {
                             <p>
                                 a curious creative who blends code, design, and digital strategy to build things that make work easier, smoother, and a little 
                                 more delightful. From custom ERP tools and interactive dashboards to responsive websites and branded intranets, I bring ideas to 
-                                life with Python, WordPress, Odoo, BigQuery, and a whole lot of curiosity.
-
-                                This portfolio?
-                                Every detail, every line of code, every pixel —
-                                Made to matter. Made by Nana.
+                                life with React, Python, WordPress, Odoo, BigQuery, and a whole lot of curiosity.
+                                <br /><br />
+                                This portfolio?<br />
+                                Every detail, every line of code, <em>every pixel</em> —<br />
+                                Made to matter. Made by Nana.<br />
                             </p>
                             <h2>Let’s Connect</h2>
                             <div class="contact">
@@ -62,7 +62,7 @@ function About() {
                                     <a href="https://www.linkedin.com/in/nana-aba-ackah/" target="_blank"><li><i class="fa-brands fa-linkedin-in"></i></li></a>
                                     <a href="https://github.com/nanaabaackah/portfolio.io" target="_blank"><li><i class="fa fa-github"></i></li></a>
                                     <a href="mailto:nanaabaackah@gmail.com" ><li><i class="fa-solid fa-envelope"></i></li></a>
-                                    <a href="documents/Nana Aba Ackah Resume.pdf" target="_onblank"><li><i class="fa-solid fa-file-pdf"></i></li></a>
+                                    <a href="/documents/Nana Aba Ackah Resume.pdf" target="_onblank"><li><i class="fa-solid fa-file-pdf"></i></li></a>
                                 </ul>
                             </div>
                         </div>

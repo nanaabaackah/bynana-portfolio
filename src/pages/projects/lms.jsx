@@ -96,6 +96,7 @@ function Learn() {
                                                         </div>
                                                     </td>
                                                 </tr>
+                                                <hr />
                                                 <tr>
                                                     <td>
                                                         <iframe 

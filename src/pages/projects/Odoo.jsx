@@ -72,6 +72,7 @@ function Odoo() {
                                                                     `}
                                                 </code>
                                             </pre>
+                                            <hr />
                                             <li><FontAwesomeIcon icon={faTerminal} /> Customized Project Name</li>
                                             <p>We wanted to create a standard automated process that loops through all posted invoices (<code className='inner'>account.move</code> records). It then checks if the 
                                                 invoice is currently "in payment" (meaning it's being processed and fully paid) and trigger an automatic notification. To do this, I customized 
@@ -100,6 +101,7 @@ function Odoo() {
                                                     `}
                                                 </code>
                                             </pre>
+                                            <hr />
                                             <li><FontAwesomeIcon icon={faTerminal} /> Auto Send Invoice Status</li>
                                             <p>We wanted to create a standard project name auto generated whenever a job is accepted. This code retrieves the next available sequence number for 
                                                 projects using Odoo’s <code className='inner'>ir.sequence</code>. <code className='inner'>project.project</code> is the defined sequence code — this ensures every project gets a unique 
@@ -120,6 +122,7 @@ function Odoo() {
                                                     `}
                                                 </code>
                                             </pre>
+                                            <hr />
                                             <li><FontAwesomeIcon icon={faTerminal} /> Default use of 'Quote' change</li>
                                             <p>The goal was to change the default terminology used when sending sales estimates to clients.  Odoo's standard behavior uses the term "Quote" when sending 
                                                 sales orders or estimates to clients. To align with internal preferences and improve clarity, I customized the quotation template to consistently display 
@@ -137,6 +140,7 @@ function Odoo() {
                                                     `}
                                                 </code>
                                             </pre>
+                                            <hr />
                                             <li><FontAwesomeIcon icon={faTerminal} /> Project Summary (Internal)(Partially Implemented)</li>
                                             <p>This method dynamically analyzes a project’s cost vs. revenue and communicates the insights through an automated email. This calculates key financial metrics for a specific project, such as:
                                                 <br />Total timesheet cost <br />Total sales order (SO) amount <br />Budget ratio = cost vs. revenue.<br />
@@ -165,6 +169,7 @@ function Odoo() {
  `}
                                                 </code>
                                             </pre>
+                                            <hr />
                                             <li><FontAwesomeIcon icon={faTerminal} /> Auto-Send Startup Email (Not implemented yet)</li>
                                             <p>
                                                 This method is designed to loop through all confirmed sales orders (<code className='inner'>state = 'sale'</code>). If the order is 2 days old, an onboarding email is automatically sent

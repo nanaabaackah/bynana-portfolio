@@ -7,6 +7,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dr+Sugiyama&family=DynaPuff:wght@400..700&family=Macondo&family=Parisienne&display=swap');
 
 :root{
     --dark: #263e4a;
@@ -92,6 +94,7 @@ main {
         transition: all 1s;
         border-top-left-radius: 35px !important;
         border-radius: 6px;
+        justify-content: center;
     }
     
     .profile:hover 
@@ -107,13 +110,15 @@ main {
         position: absolute;
         text-align: center;
         justify-content: center;
+        align-items: center;
+        padding: 0em 3em;
     }
     
     .social-icons li {
         width: 25px;
         height: 25px;
         border: 1px solid #eee;
-        padding: 15px;
+        padding: 20px;
         margin-right: 10px;
         display: flex;
         justify-content: center;
@@ -121,7 +126,6 @@ main {
         color: #fff;
         border-radius: 5px;
         transition: all 1s;
-        
     }
 
     .social-icons a{
@@ -191,6 +195,11 @@ main {
         transition: transform 0.3s ease;
         text-transform: none;
         margin-bottom:1.5em;
+      }
+
+      em{
+        font-family: "Pixelify Sans", sans-serif;
+        text-decoration: none;
       }
       
       .write-up ul {
@@ -451,8 +460,8 @@ main {
       }
       @media screen and (max-width: 768px) {
         .timeline .timeline-heading {
-          margin-bottom: 30px;
-          
+          margin-bottom: 20px;
+          margin-top: 20px;
         }
       }
       .timeline .timeline-heading > div h3 {
@@ -476,6 +485,7 @@ main {
         .timeline .timeline-heading > div h3 {
           float: left;
           margin-bottom: 0;
+          font-size: 18px;
         }
       }
       .timeline > li {
@@ -548,6 +558,7 @@ main {
       @media screen and (max-width: 992px) {
         .timeline > li > .timeline-badge {
           margin-left: -10px !important;
+          width: 44px;
         }
       }
       .timeline > li > .timeline-badge i {
@@ -582,17 +593,17 @@ main {
       
       .timeline-title {
         margin-top: 0;
-        font-family: "Indie Flower", cursive;
+        font-size: 5em;
+        font-family: "Parisienne", cursive;
       }
       
       .company {
         display: block;
         margin-bottom: 10px;
-        font-size: 14px;
+        font-size: 20px;
         font-weight: bold;
         color: var(--light);
-        font-style: italic;
-        font-family: "Indie Flower", cursive;
+        font-family: "DynaPuff", system-ui;
       }
       
       .timeline-body > p,
@@ -1504,7 +1515,7 @@ main {
       @media screen and (max-width: 768px) {
         #fh5co-consult .choose {
           width: 100%;
-          padding: 4em 1em;
+          padding: 2em 1em;
         }
       }
       
@@ -1604,6 +1615,10 @@ main {
 
 
 @media screen and (max-width: 850px) {
+  html, body {
+        overflow-x: hidden;  
+        overflow-y: auto;    
+        }
     main {
         display: flex;
         flex-direction: column; 
@@ -1643,7 +1658,7 @@ main {
         font-family: "Darker Grotesque", sans-serif;
         font-size: 20px;
         font-weight: 900;
-        margin-top: 1em;
+        margin-top: 0em;
     }
 
     .content li{
@@ -1720,7 +1735,7 @@ main {
     }
 
     .sec_one{
-        font-size: 1em;
+        font-size: .8em;
         font-family: "Montserrat";
     }
 
@@ -1770,6 +1785,21 @@ main {
         line-height: 1;
         animation: fadeInZoom 1s ease forwards;
         transition: transform 0.3s ease;
+      }
+
+      .timeline-title {
+        margin-top: 0;
+        font-family: "Parisienne", cursive;
+        font-weight: 900;
+      }
+      
+      .company {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 800;
+        color: var(--light);
+        font-family: "DynaPuff", system-ui;
       }
 
       .fh5co-bg-color{
@@ -2104,8 +2134,15 @@ main {
     }
 
     .rec h2{
-      font-size: 1.5em;
+      font-size: 1.2em;
       padding-left: 0em;
+    }
+
+    .design h4{
+      font-size: .9em;
+      text-transform: uppercase;
+      text-align: left;
+      
     }
     
     #reconstruction{
@@ -2128,6 +2165,7 @@ main {
 
       .fh5co-heading h1{
         font-size: 1em;
+        padding: 0em 1em;
       }
 
       .oppot, 
@@ -2135,8 +2173,9 @@ main {
         margin-bottom: 2em;
         margin-top: 1em;
         text-transform: none;
-        padding: 0em 3em;
+        padding: 0em 2em;
         text-align: justify;
+        word-break: break-all;
       }
 
       .oppot h3{
@@ -2260,14 +2299,14 @@ main {
         position: relative;
         text-transform: none;
         font-weight: normal;
-        font-size: 1em;
+        font-size: .8em;
         font-family: "Darker Grotesque", sans-serif;
       }
 
       .ids p,
       .ids-b p{
         
-        margin-bottom: 1em;
+        margin-bottom: 1.5em;
       }
       .ids h5,
       .ids-b h5{
@@ -2282,7 +2321,7 @@ main {
         float: inline-start;
         text-transform: none;
         font-weight: normal;
-        font-size: 1em;
+        font-size: .8em;
         font-family: "Darker Grotesque", sans-serif;
       }
 
@@ -2440,10 +2479,10 @@ main {
           height: 60px;
           border: none;
           margin-right: 0.5em;
-          color: var(--black);
+          color: var(--light);
           border-radius: 5px;
           transition: all 1s;
-          font-size: 2em;
+          font-size: 1.5em;
           top: 10px;
           margin-left: 0em;
       }
