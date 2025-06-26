@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCodeCommit, faSquareCheck, faTriangleExclamation, faLeftLong, faRightLong } from '@fortawesome/free-solid-svg-icons';
 import LightboxViewer from '/src/components/LightboxViewer';
@@ -141,14 +142,14 @@ function Learn() {
                                 </div>
                             </div>      
                             <div className="pre-next">
-                                <a className="prev" href="/projects/Reconstruction">
+                                <Link className="prev" to="/projects/Reconstruction">
                                     <FontAwesomeIcon icon={faLeftLong} />
                                     <span>Previous</span>
-                                </a>
-                                <a className="next" href="/projects/Odoo">
+                                </Link>
+                                <Link className="next" to="/projects/Odoo">
                                     <span>Next</span>
                                     <FontAwesomeIcon icon={faRightLong} />
-                                </a>
+                                </Link>
                             </div>                 
                         </div>
                     </div>
@@ -238,8 +239,8 @@ function Learn() {
                             </div>
                         </div>
                         <div className="pre-next">
-                            <a className="prev" href="/projects/Reconstruction"><FontAwesomeIcon icon={faLeftLong} />Previous</a>
-                            <a className="next" href="/projects/Odoo">Next<FontAwesomeIcon icon={faRightLong} /></a>
+                            <Link className="prev" to="/projects/Reconstruction"><FontAwesomeIcon icon={faLeftLong} />Previous</Link>
+                            <Link className="next" to="/projects/Odoo">Next<FontAwesomeIcon icon={faRightLong} /></Link>
                         </div>
                     </div>
                 </div>  

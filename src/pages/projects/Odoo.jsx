@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import GistEmbed from '/src/components/GistEmbed';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faCodeCommit, faTerminal, faLeftLong, faRightLong, faXmark } from '@fortawesome/free-solid-svg-icons';
 import '/src/styles/global.css';
@@ -268,8 +269,8 @@ function Odoo() {
                                                 </table>
                                             </div>
                                             <div className="pre-next">
-                                                <a className="prev" href="/projects/lms"><FontAwesomeIcon icon={faLeftLong} />Previous</a>
-                                                <a className="next" href="/projects/Reconstruction">Next<FontAwesomeIcon icon={faRightLong} /></a>
+                                                <Link className="prev" to="/projects/lms"><FontAwesomeIcon icon={faLeftLong} />Previous</Link>
+                                                <Link className="next" to="/projects/Reconstruction">Next<FontAwesomeIcon icon={faRightLong} /></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -351,8 +352,8 @@ function Odoo() {
                                         <p>Canva, Odoo.sh, GitHub, Visual Studio, Python, QWeb/XML, Odoo Studio, User Training, Process Documentation</p>
                                     </div>
                                     <div className="pre-next">
-                                        <a className="prev" href="/projects/lms"><FontAwesomeIcon icon={faLeftLong} /> Previous</a>
-                                        <a className="next" href="/projects/Reconstruction">Next<FontAwesomeIcon icon={faRightLong} /></a>
+                                        <Link className="prev" to="/projects/lms"><FontAwesomeIcon icon={faLeftLong} /> Previous</Link>
+                                        <Link className="next" to="/projects/Reconstruction">Next<FontAwesomeIcon icon={faRightLong} /></Link>
                                     </div>
                                 </div>
                             </div>

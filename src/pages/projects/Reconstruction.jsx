@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faCodeCommit, faRightLong, faSquareCheck } from '@fortawesome/free-solid-svg-icons';
 import LightboxViewer from '/src/components/LightboxViewer';
@@ -194,7 +195,7 @@ function Reconstruction() {
                                 </div>
                             </div>
                             <div className="pre-next">
-                                <a className="next" href="/projects/lms">Next<FontAwesomeIcon icon={faRightLong} /></a>
+                                <Link className="next" to="/projects/lms">Next<FontAwesomeIcon icon={faRightLong} /></Link>
                             </div>
                         </div>
                     </div>
@@ -299,7 +300,7 @@ function Reconstruction() {
                                     </div>
                                 </div>
                                 <div className="pre-next">
-                                    <a className="next" href="/projects/lms">Next<FontAwesomeIcon icon={faRightLong} /></a>
+                                    <Link className="next" to="/projects/lms">Next<FontAwesomeIcon icon={faRightLong} /></Link>
                                 </div>
                             </div>
                         </div>
