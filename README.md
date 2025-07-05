@@ -1,10 +1,10 @@
-# 🌐 Nana Aba Ackah — Developer Portfolio
+# 🌐 -bynana — Developer Portfolio
 
 This is the personal portfolio website of **Nana Aba Ackah**, built to showcase professional experience, technical skills, and select frontend projects. The site is developed using modern web technologies including **React**, **Vite**, and **Tailwind CSS**, and is designed with accessibility, performance, and responsiveness in mind.
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 | Tech | Description |
 |------|-------------|
@@ -17,14 +17,14 @@ This is the personal portfolio website of **Nana Aba Ackah**, built to showcase 
 
 ---
 
-## 🧠 Features
+## Features
 
-- ⚡ Fast, responsive, and SEO-friendly design
-- 🎯 Clear presentation of skills, tools, and experience
-- 🗂 Projects section with detailed case study (customizable)
-- 🔗 External links to GitHub, LinkedIn, and contact
-- 📱 Mobile-first responsive layout
-- ♿️ Accessibility-conscious components and structure
+- Fast, responsive, and SEO-friendly design
+- Clear presentation of skills, tools, and experience
+- Projects section with detailed case study (customizable)
+- External links to GitHub, LinkedIn, and contact
+- Mobile-first responsive layout
+- Accessibility-conscious components and structure
 
 ---
 
@@ -54,13 +54,13 @@ VITE_GA_ID=G-XXXXXXXXXX
 npm run dev
 ```
 
-📦 Build for Production
+**Build for Production**
 
 ```bash
 npm run build
 ```
 
-📁 **Folder Structure**
+**Folder Structure**
 
 src/
 ├── assets/         # Images and static files
@@ -69,12 +69,12 @@ src/
 ├── App.jsx
 ├── main.jsx
 
-✅ **To Do**
+**To Do**
 
 - Add more featured projects
 - Lighthouse performance + accessibility badge
 
-📝 License
+License
 
 This project is open-sourced for learning and inspiration purposes.
 All content and visuals belong to Nana Aba Ackah © 2025.
