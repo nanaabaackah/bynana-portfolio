@@ -1,8 +1,10 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSuitcase, faCodeCommit, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { faSuitcase, faCodeCommit, faGraduationCap, faDiagramProject, faDatabase, faObjectGroup, faUniversalAccess, faChartSimple, faGlobe, faFlask, faHexagonNodesBolt, faWindowRestore, faBarsProgress, faListCheck, faCircleNodes } from '@fortawesome/free-solid-svg-icons';
+//import { faReact } from '@fortawesome/free-brands-svg-icons';
 import '/src/styles/global.css';
+import { faCss3, faFigma, faGithub, faGoogle, faHtml5, faJs, faMicrosoft, faNodeJs, faPhp, faPython, faReact, faReacteurope, faSearchengin, faSketch, faTrello, faUikit, faVuejs, faWordpress } from '@fortawesome/free-brands-svg-icons';
 
 function Resume() {
     return(
@@ -95,9 +97,21 @@ function Resume() {
                                                 </div>
                                             </li>
                                             <li className="timeline-heading text-center animate-box">
-                                                <div><h3>Education</h3></div>
+                                                <div><h3>Projects</h3></div>
                                             </li>
                                             <li className="animate-box timeline-unverted">
+                                                <div className="timeline-badge"><FontAwesomeIcon icon={faDiagramProject} /></div>
+                                                <div className="timeline-panel">
+                                                    <div className="timeline-heading">
+                                                        <h4 className="timeline-title">Personal Portfolio Website</h4>
+                                                        <span className="company">React, JSX, Vite, HTML5, CSS3, JavaScript (ES6+), TypeScript, Github, Netlify, REST APIs, Figma, Canva, npm, Node.js, Browser DevTools, Accessibility Testing</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li className="timeline-heading text-center animate-box">
+                                                <div><h3>Education</h3></div>
+                                            </li>
+                                            <li className="animate-box timeline-inverted">
                                                 <div className="timeline-badge"><FontAwesomeIcon icon={faGraduationCap} /></div>
                                                 <div className="timeline-panel">
                                                     <div className="timeline-heading">
@@ -123,79 +137,135 @@ function Resume() {
                                         <div className="col-md-6">
                                             <h3>Languages & Frameworks</h3>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">HTML5</span><span className="value-right">3</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faReact} /><br/><em>React</em></span></h3>
+                                                {/*<div className="progress-b">
                                                     <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                     </div>
-                                                </div>
+                                                </div>*/}
                                             </div>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">CSS3</span><span className="value-right">3</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={ faVuejs } /><br/><em>Vue</em></span></h3>
+                                                {/*<div className="progress-b">
+                                                    <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                    aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
+                                                    </div>
+                                                </div>*/}
+                                            </div>
+                                            <div className="progress-wrap-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faVuejs} /><br/><em>Vuetify</em></span></h3>
+                                                {/*<div className="progress-b">
+                                                    <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                    aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
+                                                    </div>
+                                                </div>*/}
+                                            </div>
+                                            <div className="progress-wrap-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faReact} /><br/><em>TypeScript</em></span></h3>
+                                                {/*<div className="progress-b">
+                                                    <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                    aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
+                                                    </div>
+                                                </div>*/}
+                                            </div>
+                                            <div className="progress-wrap-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faReact} /><br/><em>Tailwind</em></span></h3>
+                                                {/*<div className="progress-b">
+                                                    <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                    aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
+                                                    </div>
+                                                </div>*/}
+                                            </div>
+                                            <div className="progress-wrap-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faNodeJs} /><br/><em>Node.js</em></span></h3>
+                                                {/*<div className="progress-b">
+                                                    <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                    aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
+                                                    </div>
+                                                </div>*/}
+                                            </div>
+                                            <div className="progress-wrap-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faReacteurope} /><br/><em>Vite</em></span></h3>
+                                                {/*<div className="progress-b">
+                                                    <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                    aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
+                                                    </div>
+                                                </div>*/}
+                                            </div>
+                                            <div className="progress-wrap-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faHtml5} /><br/><em>HTML5</em></span></h3>
+                                                {/* <div className="progress-b">
+                                                    <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                    aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
+                                                    </div>
+                                                </div> */}
+                                            </div>
+                                            <div className="progress-wrap-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faCss3} /><br/><em>CSS3</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">JavaScript (ES6+)</span><span className="value-right">3</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faJs} /><br/><em>JavaScript (ES6+)</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-3-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">PHP</span><span className="value-right">2</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faPhp} /><br/><em>PHP</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-4-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="2" aria-valuemin="0" aria-valuemax="5" style={{ width:"40%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">Python</span><span className="value-right">3</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faPython} /><br/><em>Python</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-5-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <h3>Data Tools</h3>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">SQL Server</span><span className="value-right">&lt; 1</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faMicrosoft} /><br/><em>SQL Server</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width:"15%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">PostgreSQL</span><span className="value-right">2</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faDatabase} /><br/><em>PostgreSQL</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="2" aria-valuemin="0" aria-valuemax="5" style={{ width:"40%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">BigQuery</span><span className="value-right">&lt; 1</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faGoogle} /><br/><em>BigQuery</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-3-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width:"15%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">Looker Studio</span><span className="value-right">&lt; 1</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faGoogle} /><br/><em>Looker Studio</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-4-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width:"15%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>
@@ -203,71 +273,71 @@ function Resume() {
                                         <div className="col-md-6">
                                             <h3>UI/UX & Optimization</h3>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">Figma</span><span className="value-right">2</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faFigma} /><br/><em>Figma</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="2" aria-valuemin="0" aria-valuemax="5" style={{ width:"40%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">Canva</span><span className="value-right">4</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faObjectGroup} /><br/><em>Canva</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="4" aria-valuemin="0" aria-valuemax="5" style={{ width:"80%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">Mobile-first responsive design</span><span className="value-right">3</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faUikit} /><br/><em>Mobile-first responsive design</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-3-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">Accessibility (WCAG/a11y)</span><span className="value-right">3</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faUniversalAccess} /><br/><em>Accessibility (WCAG/a11y)</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-4-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <h3>Digital Design & Tools</h3>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">SEO tools</span><span className="value-right">3</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faSearchengin} /><br/><em>SEO tools</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">Google Analytics</span><span className="value-right">3</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faChartSimple} /><br/><em>Google Analytics</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">Google Sites (custom scripting)</span><span className="value-right">&lt; 1</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faGlobe} /><br/><em>Google Sites (custom scripting)</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-3-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width:"15%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">SketchUp (3D integration)</span><span className="value-right">2.5</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faSketch} /><br/><em>SketchUp (3D integration)</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-4-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="2.5" aria-valuemin="0" aria-valuemax="5" style={{ width:"50%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>
@@ -275,39 +345,39 @@ function Resume() {
                                         <div className="col-md-6">
                                             <h3>AI & Automation</h3>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">Flask (AI/Automation)</span><span className="value-right">&lt; 1</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faFlask} /><br/><em>Flask (AI/Automation)</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width:"15%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">ChatGPT (Prompt Integration)</span><span className="value-right">1.5</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faHexagonNodesBolt} /><br/><em>ChatGPT (Prompt Integration)</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="1.5" aria-valuemin="0" aria-valuemax="5" style={{ width:"30%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <h3>ERP Systems</h3>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">Odoo (QWeb, XML, API integration)</span><span className="value-right">2.5</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faPython} /><br/><em>Odoo (QWeb, XML, API integration)</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="2.5" aria-valuemin="0" aria-valuemax="5" style={{ width:"50%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">WordPress</span><span className="value-right">3</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faWordpress} /><br/><em>WordPress</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>
@@ -315,36 +385,52 @@ function Resume() {
                                         <div className="col-md-6">
                                             <h3>Version Control & Workflow</h3>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">GitHub</span><span className="value-right">4</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faGithub} /><br/><em>GitHub</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="4" aria-valuemin="0" aria-valuemax="5" style={{ width:"80%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">Browser Testing</span><span className="value-right">4</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faWindowRestore} /><br/><em>Browser Testing</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="4" aria-valuemin="0" aria-valuemax="5" style={{ width:"80%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">Trello</span><span className="value-right">&lt; 1</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faListCheck} /><br/><em>Playwright</em></span></h3>
+                                                {/* <div className="progress-b">
+                                                    <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
+                                                    aria-valuenow="4" aria-valuemin="0" aria-valuemax="5" style={{ width:"80%" }}>
+                                                    </div>
+                                                </div> */}
+                                            </div>
+                                            <div className="progress-wrap-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faCircleNodes} /><br/><em>Postman</em></span></h3>
+                                                {/* <div className="progress-b">
+                                                    <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
+                                                    aria-valuenow="4" aria-valuemin="0" aria-valuemax="5" style={{ width:"80%" }}>
+                                                    </div>
+                                                </div> */}
+                                            </div>
+                                            <div className="progress-wrap-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faTrello} /><br/><em>Trello</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-3-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width:"15%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className="progress-wrap-b">
-                                                <h3><span className="name-left">Agile/Scrum</span><span className="value-right">3</span></h3>
-                                                <div className="progress-b">
+                                                <h3><span className="name-left"><FontAwesomeIcon icon={faBarsProgress} /><br/><em>Agile/Scrum</em></span></h3>
+                                                {/* <div className="progress-b">
                                                     <div className="progress-bar progress-bar-4-b progress-bar-striped active" role="progressbar"
                                                     aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>

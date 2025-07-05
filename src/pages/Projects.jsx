@@ -1,7 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '/src/styles/global.css';
 
 function Projects() {
@@ -66,6 +65,23 @@ function Projects() {
                                             </p>
                                             <div className="link">
                                                 <Link to="/projects/lms">View</Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 text-center col-padding animate-box">
+                                        <div className="work" style={{ backgroundImage: "url(/imgs/22.png" }}>
+                                            <div className="desc">
+                                                <Link to="https://github.com/nanaabaackah/bynana-portfolio">Personal Portfolio Website (React)</Link>
+                                            </div>
+                                        </div>
+                                        <button className="accordion-main">More</button>
+                                        <div className="panell">
+                                            <p>
+                                                React, JSX, Vite, HTML5, CSS3, JavaScript (ES6+), TypeScript, Github, Netlify, REST APIs, Figma, Canva,
+                                                 npm, Node.js, Browser DevTools, Accessibility Testing
+                                            </p>
+                                            <div className="link">
+                                                <Link to="https://github.com/nanaabaackah/bynana-portfolio">View Git</Link>
                                             </div>
                                         </div>
                                     </div>

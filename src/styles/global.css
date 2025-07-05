@@ -590,7 +590,10 @@ main {
         left: -14px;
         right: auto;
       }
-      
+      li.timeline-inverted,
+      li.timeline-unverted{
+        margin-bottom: 2.5em;
+      }
       .timeline-title {
         margin-top: 0;
         font-size: 5em;
@@ -738,34 +741,43 @@ main {
       }
 
       .progress-wrap-b {
-        width: 50%;
+        width: 30%;
         float: left;
         margin-bottom: .5em;
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       .progress-wrap-b h3 {
-        font-size: 25px;
-        display: block;
+        display: flex;
         margin-bottom: 10px;
         float: left;
-        width: 90%;
-        text-decoration: none;
+        width: 50%;
+        height: 130px;
         margin-top: 1em;
-        letter-spacing: 2px;
         font-family: "Darker Grotesque", sans-serif;
+        background-color: var(--back);
+        color: var(--black);
+        text-align: center;
+        padding: .5em;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        align-items: center;
+        justify-content: center;
       }
       .progress-wrap-b h3 .name-left {
-        float: left;
-        color: var(--back);
-        font-size: 12px;
-        letter-spacing: 2px;
+        text-align: center;
+        color: var(--light);
+        font-size: 1.2em;
+        letter-spacing: 1px;
         font-family: "Darker Grotesque", sans-serif;
+        padding-right: 0;
       }
-      .progress-wrap-b h3 .value-right {
-        float: right;
-        color: var(--back);
-        font-size: 15px;
-        letter-spacing: 2px;
+      .name-left em {
+        color: var(--light);
+        font-weight: 800;
+        font-size: .4em;
+        letter-spacing: 1px;
         font-family: "Darker Grotesque", sans-serif;
       }
       
@@ -848,6 +860,7 @@ main {
         -o-transition: 0.3s;
         transition: 0.3s;
         color: var(--back);
+        padding: 0.5em;
       }
       .work .desc .accordion-main {
         font-size: 20px;
