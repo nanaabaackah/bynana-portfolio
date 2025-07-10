@@ -137,6 +137,13 @@ function Projects() {
                                             </div>
                                         </div></Link>
                                     </div>
+                                    <div className="col-md-3 text-center col-padding animate-box">
+                                        <Link to="https://github.com/nanaabaackah/bynana-portfolio"><div className="work" style={{ backgroundImage: "url(/imgs/22.png" }}>
+                                            <div className="desc">
+                                                Personal Portfolio Website (React)
+                                            </div>
+                                        </div></Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>

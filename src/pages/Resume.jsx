@@ -521,417 +521,503 @@ function Resume() {
                         </div>
                         <div className="content">
                             <div className="col-md-12 col-md-offset-0">
-                                        <ul className="timeline">
-                                            <li className="timeline-heading text-center animate-box">
-                                                <div><h3>Work Experience</h3></div>
-                                            </li>
-                                            <li className="animate-box timeline-unverted">
-                                                <div className="timeline-badge"><i className="fa-solid fa-suitcase"></i></div>
-                                                <div className="timeline-panel">
-                                                    <div className="timeline-heading">
-                                                        <h4 className="timeline-title">IT Technician</h4>
-                                                        <span className="company">IBW Surveyors - Oct 2024 – Present</span>
-                                                    </div>
-                                                    <div className="timeline-body">
-                                                        <ul className="exp">
-                                                            <li><i className="fa-solid fa-code-commit"></i> Rebuilt internal portal using HTML, SCSS, and JavaScript, reducing load times by 10% and improving UX satisfaction scores.</li>
-                                                            <li><i className="fa-solid fa-code-commit"></i> Collaborated on company website redesign, boosting user engagement by 10% through better UX and SEO.</li>
-                                                            <li><i className="fa-solid fa-code-commit"></i> Worked with Managed Service Providers to implement IT policies, increasing efficiency by 5%.</li>
-                                                            <li><i className="fa-solid fa-code-commit"></i> Analyzed operational data using BigQuery, Looker Studio, and SQL Server, helping executives monitor KPIs in real time.</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li className="timeline-inverted animate-box">
-                                                <div className="timeline-badge"><i className="fa-solid fa-suitcase"></i></div>
-                                                <div className="timeline-panel">
-                                                    <div className="timeline-heading">
-                                                        <h4 className="timeline-title">ERP Systems Manager</h4>
-                                                        <span className="company">IN Engineering + Surveying - Jan 2023 – Oct 2024</span>
-                                                    </div>
-                                                    <div className="timeline-body">
-                                                        <ul className="exp">
-                                                            <li><i className="fa-solid fa-code-commit"></i> Led end-to-end development of custom Odoo ERP modules (CRM, Sales, Projects) using Python and XML, boosting process automation by 50%.</li>
-                                                            <li><i className="fa-solid fa-code-commit"></i> Conducted user training sessions for 20+ staff, ensuring 90% system adoption within the first quarter of rollout.</li>
-                                                            <li><i className="fa-solid fa-code-commit"></i> Translated UI mockups from Figma into accessible, mobile-first web pages; implemented WCAG-compliant accessibility features.</li>
-                                                            <li><i className="fa-solid fa-code-commit"></i> Utilized Odoo controllers to create custom endpoints, integrating data across multiple modules and third-party APIs.</li>
-                                                            <li><i className="fa-solid fa-code-commit"></i> Optimized controller routes and backend logic, improving ERP data load speed by 30%.</li>
-                                                            <li><i className="fa-solid fa-code-commit"></i> Developed and maintained 5 SEO-optimized WordPress sites, increasing organic traffic by 30% and reducing bounce rate by 22%</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li className="animate-box timeline-unverted">
-                                                <div className="timeline-badge"><i className="fa-solid fa-suitcase"></i></div>
-                                                <div className="timeline-panel">
-                                                    <div className="timeline-heading">
-                                                        <h4 className="timeline-title">Marketing Coordinator</h4>
-                                                        <span className="company">IN Engineering + Surveying - Jan 2023 – Oct 2024</span>
-                                                    </div>
-                                                    <div className="timeline-body">
-                                                        <ul className="exp">
-                                                            <li><i className="fa-solid fa-code-commit"></i> Integrated Google Analytics and custom event tracking, enabling weekly performance reporting and 10% increase in lead generation.</li>
-                                                            <li><i className="fa-solid fa-code-commit"></i> Aligned campaign execution with company product roadmaps through collaboration with sales and engineering teams.</li>
-                                                            <li><i className="fa-solid fa-code-commit"></i> Presented data-driven marketing insights and web metrics to leadership, influencing digital strategy.</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li className="timeline-inverted animate-box">
-                                                <div className="timeline-badge"><i className="fa-solid fa-suitcase"></i></div>
-                                                <div className="timeline-panel">
-                                                    <div className="timeline-heading">
-                                                        <h4 className="timeline-title">Survey Research Administrator</h4>
-                                                        <span className="company">IN Engineering + Surveying - Sep 2022 – Oct 2024</span>
-                                                    </div>
-                                                    <div className="timeline-body">
-                                                        <ul className="exp">
-                                                            <li><i className="fa-solid fa-code-commit"></i> <strong>Conducted</strong> over <strong>150+ property title searches</strong> using Teranet, maintaining <strong>100% accuracy</strong> in legal documentation.</li>
-                                                            <li><i className="fa-solid fa-code-commit"></i> Provided <strong>detailed research insights</strong> that directly supported <strong>200+ surveying projects</strong> across Ontario.</li>
-                                                            <li><i className="fa-solid fa-code-commit"></i> Ensured accuracy through strict quality control procedures. </li>
-                                                            <li><i className="fa-solid fa-code-commit"></i> Communicated research findings clearly to stakeholders and team members.</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <br />
-                                            <li className="timeline-heading text-center animate-box">
-                                                <div><h3>Education</h3></div>
-                                            </li>
-                                            <li className="animate-box timeline-unverted">
-                                                <div className="timeline-badge"><i className="fa-solid fa-graduation-cap"></i></div>
-                                                <div className="timeline-panel">
-                                                    <div className="timeline-heading">
-                                                        <h4 className="timeline-title">Bachelors Degree</h4>
-                                                        <span className="company">Trent University - 2017 - 2022</span>
-                                                    </div>
-                                                    <div className="timeline-body">
-                                                        <p>Bachelor of Arts (BA), <strong>Business</strong> and <strong>Computer Science</strong></p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <hr />
-                                    <div className="fh5co-bg-color">
-                                        <div id="fh5co-skills" className="animate-box">
-                                            <div className="row"> 
-                                                <h2 className="skills-heading animate-box" >Skills</h2>
-                                                <h4>(Years of Experience)</h4>
+                                <ul className="timeline">
+                                    <li className="timeline-heading text-center animate-box">
+                                        <div><h3>Work Experience</h3></div>
+                                    </li>
+                                    <li className="animate-box timeline-unverted">
+                                        <div className="timeline-badge"><i className="fa-solid fa-suitcase"></i></div>
+                                        <div className="timeline-panel">
+                                            <div className="timeline-heading">
+                                                <h4 className="timeline-title">IT Technician</h4>
+                                                <span className="company">IBW Surveyors - Oct 2024 – Present</span>
                                             </div>
-                                            <div className="row">
-                                                <div className="col-md-6 animate-box">
-                                                    <h3>Languages & Frameworks</h3>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">HTML5</span><span className="value-right">3</span></h3>
-                                                        <div className="progress-b">
+                                            <div className="timeline-body">
+                                                <ul className="exp">
+                                                    <li><i className="fa-solid fa-code-commit"></i> Rebuilt internal portal using HTML, SCSS, and JavaScript, reducing load times by 10% and improving UX satisfaction scores.</li>
+                                                    <li><i className="fa-solid fa-code-commit"></i> Collaborated on company website redesign, boosting user engagement by 10% through better UX and SEO.</li>
+                                                    <li><i className="fa-solid fa-code-commit"></i> Worked with Managed Service Providers to implement IT policies, increasing efficiency by 5%.</li>
+                                                    <li><i className="fa-solid fa-code-commit"></i> Analyzed operational data using BigQuery, Looker Studio, and SQL Server, helping executives monitor KPIs in real time.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="timeline-inverted animate-box">
+                                        <div className="timeline-badge"><i className="fa-solid fa-suitcase"></i></div>
+                                        <div className="timeline-panel">
+                                            <div className="timeline-heading">
+                                                <h4 className="timeline-title">ERP Systems Manager</h4>
+                                                <span className="company">IN Engineering + Surveying - Jan 2023 – Oct 2024</span>
+                                            </div>
+                                            <div className="timeline-body">
+                                                <ul className="exp">
+                                                    <li><i className="fa-solid fa-code-commit"></i> Led end-to-end development of custom Odoo ERP modules (CRM, Sales, Projects) using Python and XML, boosting process automation by 50%.</li>
+                                                    <li><i className="fa-solid fa-code-commit"></i> Conducted user training sessions for 20+ staff, ensuring 90% system adoption within the first quarter of rollout.</li>
+                                                    <li><i className="fa-solid fa-code-commit"></i> Translated UI mockups from Figma into accessible, mobile-first web pages; implemented WCAG-compliant accessibility features.</li>
+                                                    <li><i className="fa-solid fa-code-commit"></i> Utilized Odoo controllers to create custom endpoints, integrating data across multiple modules and third-party APIs.</li>
+                                                    <li><i className="fa-solid fa-code-commit"></i> Optimized controller routes and backend logic, improving ERP data load speed by 30%.</li>
+                                                    <li><i className="fa-solid fa-code-commit"></i> Developed and maintained 5 SEO-optimized WordPress sites, increasing organic traffic by 30% and reducing bounce rate by 22%</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="animate-box timeline-unverted">
+                                        <div className="timeline-badge"><i className="fa-solid fa-suitcase"></i></div>
+                                        <div className="timeline-panel">
+                                            <div className="timeline-heading">
+                                                <h4 className="timeline-title">Marketing Coordinator</h4>
+                                                <span className="company">IN Engineering + Surveying - Jan 2023 – Oct 2024</span>
+                                            </div>
+                                            <div className="timeline-body">
+                                                <ul className="exp">
+                                                    <li><i className="fa-solid fa-code-commit"></i> Integrated Google Analytics and custom event tracking, enabling weekly performance reporting and 10% increase in lead generation.</li>
+                                                    <li><i className="fa-solid fa-code-commit"></i> Aligned campaign execution with company product roadmaps through collaboration with sales and engineering teams.</li>
+                                                    <li><i className="fa-solid fa-code-commit"></i> Presented data-driven marketing insights and web metrics to leadership, influencing digital strategy.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="timeline-inverted animate-box">
+                                        <div className="timeline-badge"><i className="fa-solid fa-suitcase"></i></div>
+                                        <div className="timeline-panel">
+                                            <div className="timeline-heading">
+                                                <h4 className="timeline-title">Survey Research Administrator</h4>
+                                                <span className="company">IN Engineering + Surveying - Sep 2022 – Oct 2024</span>
+                                            </div>
+                                            <div className="timeline-body">
+                                                <ul className="exp">
+                                                    <li><i className="fa-solid fa-code-commit"></i> <strong>Conducted</strong> over <strong>150+ property title searches</strong> using Teranet, maintaining <strong>100% accuracy</strong> in legal documentation.</li>
+                                                    <li><i className="fa-solid fa-code-commit"></i> Provided <strong>detailed research insights</strong> that directly supported <strong>200+ surveying projects</strong> across Ontario.</li>
+                                                    <li><i className="fa-solid fa-code-commit"></i> Ensured accuracy through strict quality control procedures. </li>
+                                                    <li><i className="fa-solid fa-code-commit"></i> Communicated research findings clearly to stakeholders and team members.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <br />
+                                    <li className="timeline-heading text-center animate-box">
+                                        <div><h3>Projects</h3></div>
+                                    </li>
+                                    <li className="animate-box timeline-unverted">
+                                        <div className="timeline-badge"><FontAwesomeIcon icon={faDiagramProject} /></div>
+                                        <div className="timeline-panel">
+                                            <div className="timeline-heading">
+                                                <h4 className="timeline-title">Personal Portfolio Website</h4>
+                                                <span className="company">React, JSX, Vite, HTML5, CSS3, JavaScript (ES6+), TypeScript, Github, Netlify, REST APIs, Figma, Canva, npm, Node.js, Browser DevTools, Accessibility Testing</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="timeline-heading text-center animate-box">
+                                        <div><h3>Education</h3></div>
+                                    </li>
+                                    <li className="animate-box timeline-inverted">
+                                        <div className="timeline-badge"><FontAwesomeIcon icon={faGraduationCap} /></div>
+                                        <div className="timeline-panel">
+                                            <div className="timeline-heading">
+                                                <h4 className="timeline-title">Bachelors Degree</h4>
+                                                    <span className="company">Trent University - 2017 - 2022</span>
+                                                </div>
+                                                <div className="timeline-body">
+                                                    <p>Bachelor of Arts (BA), <strong>Business</strong> and <strong>Computer Science</strong></p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <hr />
+                                <div className="fh5co-bg-color">
+                                    <div id="fh5co-skills" className="animate-box">
+                                        <div className="row"> 
+                                            <h2 className="skills-heading">Skills</h2>
+                                            <h5 className="timeline-heading">(Years of Experience)</h5>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col-md-6">
+                                                <h3>Languages & Frameworks</h3>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faReact} /><br/><em>React</em></span></h3>
+                                                    {/*<div className="progress-b">
                                                         <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
                                                         aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                         </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">CSS3</span><span className="value-right">3</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">JavaScript (ES6+)</span><span className="value-right">3</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-3-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">PHP</span><span className="value-right">2</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-4-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="2" aria-valuemin="0" aria-valuemax="5" style={{ width: "40%" }}>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">Python</span><span className="value-right">3</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-5-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    </div>*/}
                                                 </div>
-                                            </div>
-                                            <div className="row animate-box">
-                                                <div className="col-md-6">
-                                                    <h3>Data Tools</h3>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">SQL Server</span><span className="value-right">&lt; 1</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width: "15%" }}>
-                                                            </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={ faVuejs } /><br/><em>Vue</em></span></h3>
+                                                    {/*<div className="progress-b">
+                                                        <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                         </div>
-                                                    </div>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">PostgreSQL</span><span className="value-right">2</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="2" aria-valuemin="0" aria-valuemax="5" style={{ width: "40%" }}>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">BigQuery</span><span className="value-right">&lt; 1</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-3-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width: "15%" }}>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">Looker Studio</span><span className="value-right">&lt; 1</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-4-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width: "15%" }}>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    </div>*/}
                                                 </div>
-                                            </div>
-                                            <div className="row animate-box">
-                                                <div className="col-md-6">
-                                                    <h3>UI/UX & Optimization</h3>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">Figma</span><span className="value-right">2</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="2" aria-valuemin="0" aria-valuemax="5" style={{ width: "40%" }}>
-                                                            </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faVuejs} /><br/><em>Vuetify</em></span></h3>
+                                                    {/*<div className="progress-b">
+                                                        <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                         </div>
-                                                    </div>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">Canva</span><span className="value-right">4</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="4" aria-valuemin="0" aria-valuemax="5" style={{ width: "80%" }}>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">Mobile-first responsive design</span><span className="value-right">3</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-3-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">Accessibility (WCAG/a11y)</span><span className="value-right">3</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-4-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    </div>*/}
                                                 </div>
-                                            </div>
-                                            <div className="row animate-box">
-                                                <div className="col-md-6">
-                                                    <h3>Digital Design & Tools</h3>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">SEO tools</span><span className="value-right">3</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
-                                                            </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faReact} /><br/><em>TypeScript</em></span></h3>
+                                                    {/*<div className="progress-b">
+                                                        <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                         </div>
-                                                    </div>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">Google Analytics</span><span className="value-right">3</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">Google Sites (custom scripting)</span><span className="value-right">&lt; 1</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-3-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width: "15%" }}>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">SketchUp (3D integration)</span><span className="value-right">2.5</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-4-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="2.5" aria-valuemin="0" aria-valuemax="5" style={{ width: "50%" }}>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    </div>*/}
                                                 </div>
-                                            </div>
-                                            <div className="row animate-box">
-                                                <div className="col-md-6">
-                                                    <h3>AI & Automation</h3>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">Flask (AI/Automation)</span><span className="value-right">&lt; 1</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width: "15%" }}>
-                                                            </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faReact} /><br/><em>Tailwind</em></span></h3>
+                                                    {/*<div className="progress-b">
+                                                        <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                         </div>
-                                                    </div>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">ChatGPT (Prompt Integration)</span><span className="value-right">1.5</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="1.5" aria-valuemin="0" aria-valuemax="5" style={{ width: "30%" }}>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    </div>*/}
                                                 </div>
-                                                <div className="col-md-6">
-                                                    <h3>ERP Systems</h3>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">Odoo (QWeb, XML, API integration)</span><span className="value-right">2.5</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="2.5" aria-valuemin="0" aria-valuemax="5" style={{ width: "50%" }}>
-                                                            </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faNodeJs} /><br/><em>Node.js</em></span></h3>
+                                                    {/*<div className="progress-b">
+                                                        <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                         </div>
-                                                    </div>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">WordPress</span><span className="value-right">3</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    </div>*/}
                                                 </div>
-                                            </div>
-                                            <div className="row animate-box">
-                                                <div className="col-md-6">
-                                                    <h3>Version Control & Workflow</h3>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">GitHub</span><span className="value-right">4</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="4" aria-valuemin="0" aria-valuemax="5" style={{ width: "80%" }}>
-                                                            </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faReacteurope} /><br/><em>Vite</em></span></h3>
+                                                    {/*<div className="progress-b">
+                                                        <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                         </div>
-                                                    </div>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">Browser Testing</span><span className="value-right">4</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="4" aria-valuemin="0" aria-valuemax="5" style={{ width: "80%" }}>
-                                                            </div>
+                                                    </div>*/}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faHtml5} /><br/><em>HTML5</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                         </div>
-                                                    </div>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">Trello</span><span className="value-right">&lt; 1</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-3-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width: "15%" }}>
-                                                            </div>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faCss3} /><br/><em>CSS3</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                         </div>
-                                                    </div>
-                                                    <div className="progress-wrap-b">
-                                                        <h3><span className="name-left">Agile/Scrum</span><span className="value-right">3</span></h3>
-                                                        <div className="progress-b">
-                                                            <div className="progress-bar progress-bar-4-b progress-bar-striped active" role="progressbar"
-                                                            aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
-                                                            </div>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faJs} /><br/><em>JavaScript (ES6+)</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-3-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faPhp} /><br/><em>PHP</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-4-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="2" aria-valuemin="0" aria-valuemax="5" style={{ width:"40%" }}>
+                                                        </div>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faPython} /><br/><em>Python</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-5-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
+                                                        </div>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>        
-                                    <div>
-                                        <div id="fh5co-skills" className="animate-box">
-                                            <div className="row">
-                                                <h2>Certificates</h2>
-                                                <div className="col-md-6 animate-box">
-                                                    <div className="progress-wrap">
-                                                        <h3><span className="name-left">Web Development with HTML, CSS, JavaScript</span><span className="value-right">Completed</span></h3>
-                                                        <div className="progress-a">
-                                                        <div className="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
-                                                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: "100%" }}>
+                                        <div className="row">
+                                            <div className="col-md-6">
+                                                <h3>Data Tools</h3>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faMicrosoft} /><br/><em>SQL Server</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width:"15%" }}>
                                                         </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="progress-wrap">
-                                                        <h3><span className="name-left">Developing Front-End Apps with React</span><span className="value-right">Completed</span></h3>
-                                                        <div className="progress-a">
-                                                        <div className="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
-                                                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: "100%" }}>
-                                                        </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="progress-wrap">
-                                                        <h3><span className="name-left">Developing Back-End Apps with Node.js and Express</span><span className="value-right">Completed</span></h3>
-                                                        <div className="progress-a">
-                                                        <div className="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar"
-                                                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: "100%" }}>
-                                                        </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="progress-wrap">
-                                                        <h3><span className="name-left">Python for Data Science, AI & Development</span><span className="value-right">Completed</span></h3>
-                                                        <div className="progress-a">
-                                                        <div className="progress-bar progress-bar-7 progress-bar-striped active" role="progressbar"
-                                                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: "100%" }}>
-                                                        </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="progress-wrap">
-                                                        <h3><span className="name-left">Database Management Essentials</span><span className="value-right">Completed</span></h3>
-                                                        <div className="progress-a">
-                                                        <div className="progress-bar progress-bar-9 progress-bar-striped active" role="progressbar"
-                                                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: "100%" }}>
-                                                        </div>
-                                                        </div>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
-                                                <div className="col-md-6">
-                                                    <div className="progress-wrap">
-                                                        <h3><span className="name-left">Developing AI Applications with Python and Flask</span><span className="value-right">Completed</span></h3>
-                                                        <div className="progress-a">
-                                                        <div className="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"
-                                                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: "100%" }}>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faDatabase} /><br/><em>PostgreSQL</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="2" aria-valuemin="0" aria-valuemax="5" style={{ width:"40%" }}>
                                                         </div>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faGoogle} /><br/><em>BigQuery</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-3-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width:"15%" }}>
                                                         </div>
-                                                    </div>
-                                                    <div className="progress-wrap">
-                                                        <h3><span className="name-left">Google Digital Unlocked</span><span className="value-right">Completed</span></h3>
-                                                        <div className="progress-a">
-                                                        <div className="progress-bar progress-bar-6 progress-bar-striped active" role="progressbar"
-                                                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: "100%" }}>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faGoogle} /><br/><em>Looker Studio</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-4-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width:"15%" }}>
                                                         </div>
+                                                    </div> */}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col-md-6">
+                                                <h3>UI/UX & Optimization</h3>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faFigma} /><br/><em>Figma</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="2" aria-valuemin="0" aria-valuemax="5" style={{ width:"40%" }}>
                                                         </div>
-                                                    </div>
-                                                    <div className="progress-wrap">
-                                                        <h3><span className="name-left">Django Application Development with SQL and Databases</span><span className="value-right">15%</span></h3>
-                                                        <div className="progress-a">
-                                                        <div className="progress-bar progress-bar-8 progress-bar-striped active" role="progressbar"
-                                                        aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style={{ width: "15%" }}>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faObjectGroup} /><br/><em>Canva</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="4" aria-valuemin="0" aria-valuemax="5" style={{ width:"80%" }}>
                                                         </div>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faUikit} /><br/><em>Mobile-first responsive design</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-3-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faUniversalAccess} /><br/><em>Accessibility (WCAG/a11y)</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-4-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
+                                                        </div>
+                                                    </div> */}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="row">    
+                                            <div className="col-md-6">
+                                                
+                                                <h3>Digital Design & Tools</h3>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faSearchengin} /><br/><em>SEO tools</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
+                                                        </div>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faChartSimple} /><br/><em>Google Analytics</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
+                                                        </div>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faGlobe} /><br/><em>Google Sites (custom scripting)</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-3-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width:"15%" }}>
+                                                        </div>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faSketch} /><br/><em>SketchUp (3D integration)</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-4-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="2.5" aria-valuemin="0" aria-valuemax="5" style={{ width:"50%" }}>
+                                                        </div>
+                                                    </div> */}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col-md-6">
+                                                <h3>AI & Automation</h3>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faFlask} /><br/><em>Flask (AI/Automation)</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width:"15%" }}>
+                                                        </div>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faHexagonNodesBolt} /><br/><em>ChatGPT (Prompt Integration)</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="1.5" aria-valuemin="0" aria-valuemax="5" style={{ width:"30%" }}>
+                                                        </div>
+                                                    </div> */}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="row">    
+                                            <div className="col-md-6">
+                                                <h3>ERP Systems</h3>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faPython} /><br/><em>Odoo (QWeb, XML, API integration)</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="2.5" aria-valuemin="0" aria-valuemax="5" style={{ width:"50%" }}>
+                                                        </div>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faWordpress} /><br/><em>WordPress</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
+                                                        </div>
+                                                    </div> */}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col-md-6">
+                                                <h3>Version Control & Workflow</h3>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faGithub} /><br/><em>GitHub</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="4" aria-valuemin="0" aria-valuemax="5" style={{ width:"80%" }}>
+                                                        </div>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faListCheck} /><br/><em>Playwright</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="4" aria-valuemin="0" aria-valuemax="5" style={{ width:"80%" }}>
+                                                        </div>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faCircleNodes} /><br/><em>Postman</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="4" aria-valuemin="0" aria-valuemax="5" style={{ width:"80%" }}>
+                                                        </div>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faTrello} /><br/><em>Trello</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-3-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width:"15%" }}>
+                                                        </div>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faBarsProgress} /><br/><em>Agile/Scrum</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-4-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="3" aria-valuemin="0" aria-valuemax="5" style={{ width: "60%" }}>
+                                                        </div>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faWindowRestore} /><br/><em>Browser Testing</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-2-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="4" aria-valuemin="0" aria-valuemax="5" style={{ width:"80%" }}>
+                                                        </div>
+                                                    </div> */}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>  
+                                <hr />      
+                                <div id="fh5co-skills" className="animate-box">
+                                    <div className="row">
+                                        <h2>Certificates</h2>
+                                        <div className="col-md-6 animate-box">
+                                            <div className="progress-wrap">
+                                                <h3><span className="name-left">Web Development with HTML, CSS, JavaScript</span><span className="value-right">Completed</span></h3>
+                                                <div className="progress-a">
+                                                <div className="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+                                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: "100%" }}>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div className="progress-wrap">
+                                                <h3><span className="name-left">Developing Front-End Apps with React</span><span className="value-right">Completed</span></h3>
+                                                <div className="progress-a">
+                                                <div className="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+                                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: "100%" }}>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div className="progress-wrap">
+                                                <h3><span className="name-left">Developing Back-End Apps with Node.js and Express</span><span className="value-right">Completed</span></h3>
+                                                <div className="progress-a">
+                                                <div className="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar"
+                                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: "100%" }}>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div className="progress-wrap">
+                                                <h3><span className="name-left">Python for Data Science, AI & Development</span><span className="value-right">Completed</span></h3>
+                                                <div className="progress-a">
+                                                <div className="progress-bar progress-bar-7 progress-bar-striped active" role="progressbar"
+                                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: "100%" }}>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div className="progress-wrap">
+                                                <h3><span className="name-left">Database Management Essentials</span><span className="value-right">Completed</span></h3>
+                                                <div className="progress-a">
+                                                <div className="progress-bar progress-bar-9 progress-bar-striped active" role="progressbar"
+                                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: "100%" }}>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-6">
+                                            <div className="progress-wrap">
+                                                <h3><span className="name-left">Developing AI Applications with Python and Flask</span><span className="value-right">Completed</span></h3>
+                                                <div className="progress-a">
+                                                <div className="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"
+                                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: "100%" }}>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div className="progress-wrap">
+                                                <h3><span className="name-left">Google Digital Unlocked</span><span className="value-right">Completed</span></h3>
+                                                <div className="progress-a">
+                                                <div className="progress-bar progress-bar-6 progress-bar-striped active" role="progressbar"
+                                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{ width: "100%" }}>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div className="progress-wrap">
+                                                <h3><span className="name-left">Django Application Development with SQL and Databases</span><span className="value-right">15%</span></h3>
+                                                <div className="progress-a">
+                                                <div className="progress-bar progress-bar-8 progress-bar-striped active" role="progressbar"
+                                                aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style={{ width: "15%" }}>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </section>
+                        </div>
+                    </div>
+                </section>
             </main>
         </>
     );

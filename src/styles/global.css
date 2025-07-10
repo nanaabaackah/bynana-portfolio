@@ -190,7 +190,7 @@ main {
     }
 
     .write-up p,.write-up li {
-        line-height: 1.8;
+        line-height: 1;
         animation: fadeInZoom 1s ease forwards;
         transition: transform 0.3s ease;
         text-transform: none;
@@ -232,7 +232,7 @@ main {
         margin-bottom: .5em;
         font-family: "Indie Flower", cursive;
         text-transform: capitalize;
-        font-size: 2em;
+        font-size: 1.5em;
         transition: color 0.3s ease;
         margin-top: 1em;
     }
@@ -353,7 +353,6 @@ main {
     padding: 8em;
     clear: both;
     width: 100%;
-    
     }
     @media screen and (max-width: 768px) {
     #fh5co-about,
@@ -365,6 +364,7 @@ main {
     #fh5co-pricing,
     #fh5co-contact {
         padding: 3em 0;
+        padding-top: 0em;
     }
     }
 
@@ -417,12 +417,12 @@ main {
     .fh5co-heading h2 {
     font-size: 40px;
     margin-bottom: 15px;
-    line-height: 1.5;
+    line-height: 1.2;
     color: var(--light);
     }
     .fh5co-heading p {
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1;
     color: var(--light);
     }
     .fh5co-heading span {
@@ -533,7 +533,7 @@ main {
       }
       .timeline > li > .timeline-badge {
         color: var(--back);
-        width: 50px;
+        width: 44px;
         height: 44px;
         line-height: 50px;
         font-size: 1em;
@@ -553,6 +553,7 @@ main {
       @media screen and (max-width: 768px) {
         .timeline > li > .timeline-badge {
           margin-left: -10px !important;
+          height: 44px;
         }
       }
       @media screen and (max-width: 992px) {
@@ -633,6 +634,7 @@ main {
           left: 15px;
           margin-left: 0;
           top: 16px;
+          height: 44px;
         }
       
         ul.timeline > li > .timeline-panel {
@@ -1139,7 +1141,7 @@ main {
     font-weight: normal;
     letter-spacing: 1px;
     text-align: justify;
-    line-height: 1.5;
+    line-height: 1.2;
   }
 
   .gist{
@@ -1658,6 +1660,9 @@ main {
         
     }
 
+    hr{
+      margin-top: 3em;
+    }
     strong{
         font-weight: 900;
     }
@@ -1795,7 +1800,7 @@ main {
       }
 
       .write-up p,.write-up li {
-        line-height: 1;
+        line-height: .8;
         animation: fadeInZoom 1s ease forwards;
         transition: transform 0.3s ease;
       }
@@ -1854,8 +1859,9 @@ main {
         float: left;
         color: var(--light);
         font-size: 10px;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         font-family: "Darker Grotesque", sans-serif;
+        width: 70%;
       }
       .progress-wrap h3 .value-right {
         float: right;
@@ -1914,34 +1920,40 @@ main {
       }
 
       .progress-wrap-b {
-        width: 50%;
+        width: 30%;
         float: left;
         margin-bottom: .5em;
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       .progress-wrap-b h3 {
         font-size: 25px;
         display: block;
-        margin-bottom: 10px;
         float: left;
-        width: 90%;
+        width: 80%;
         text-decoration: none;
         margin-top: 1em;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         font-family: "Darker Grotesque", sans-serif;
+        line-height: .2;
+        height: fit-content;
       }
+
       .progress-wrap-b h3 .name-left {
-        float: left;
+        text-align: center;
         color: var(--light);
-        font-size: 10px;
-        letter-spacing: 2px;
+        font-size: .8em;
+        letter-spacing: 1px;
         font-family: "Darker Grotesque", sans-serif;
+        padding-right: 0;
+        line-height: .5;
       }
-      .progress-wrap-b h3 .value-right {
-        float: right;
+      .name-left em {
         color: var(--light);
-        font-size: 10px;
-        letter-spacing: 2px;
+        font-weight: 800;
+        font-size: .4em;
+        letter-spacing: 0px;
         font-family: "Darker Grotesque", sans-serif;
       }
       
@@ -2481,10 +2493,12 @@ main {
 
       #fh5co-consult .social-icons{
           display: flex;
-          justify-content: center;
+          justify-content: space-between;
           align-items: center;
           position: absolute;
           top: 0;
+          margin-left: 0;
+          padding-left: 1em;
        }
 
       #fh5co-consult .social-icons li{
