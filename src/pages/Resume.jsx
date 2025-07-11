@@ -735,14 +735,7 @@ function Resume() {
                                         <div className="row">
                                             <div className="col-md-6">
                                                 <h3>Data Tools</h3>
-                                                <div className="progress-wrap-b">
-                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faMicrosoft} /><br/><em>SQL Server</em></span></h3>
-                                                    {/* <div className="progress-b">
-                                                        <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
-                                                        aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width:"15%" }}>
-                                                        </div>
-                                                    </div> */}
-                                                </div>
+                                                
                                                 <div className="progress-wrap-b">
                                                     <h3><span className="name-left"><FontAwesomeIcon icon={faDatabase} /><br/><em>PostgreSQL</em></span></h3>
                                                     {/* <div className="progress-b">
@@ -763,6 +756,14 @@ function Resume() {
                                                     <h3><span className="name-left"><FontAwesomeIcon icon={faGoogle} /><br/><em>Looker Studio</em></span></h3>
                                                     {/* <div className="progress-b">
                                                         <div className="progress-bar progress-bar-4-b progress-bar-striped active" role="progressbar"
+                                                        aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width:"15%" }}>
+                                                        </div>
+                                                    </div> */}
+                                                </div>
+                                                <div className="progress-wrap-b">
+                                                    <h3><span className="name-left"><FontAwesomeIcon icon={faMicrosoft} /><br/><em>SQL Server</em></span></h3>
+                                                    {/* <div className="progress-b">
+                                                        <div className="progress-bar progress-bar-1-b progress-bar-striped active" role="progressbar"
                                                         aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style={{ width:"15%" }}>
                                                         </div>
                                                     </div> */}
