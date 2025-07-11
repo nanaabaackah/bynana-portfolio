@@ -533,7 +533,7 @@ main {
       }
       .timeline > li > .timeline-badge {
         color: var(--back);
-        width: 44px;
+        width: 50px;
         height: 44px;
         line-height: 50px;
         font-size: 1em;
@@ -761,11 +761,12 @@ main {
         background-color: var(--back);
         color: var(--black);
         text-align: center;
-        padding: .5em;
+        padding: 2.5em;
         border-radius: 20px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         align-items: center;
         justify-content: center;
+        line-height: .2;
       }
       .progress-wrap-b h3 .name-left {
         text-align: center;

@@ -59,7 +59,7 @@ function Contact() {
                         </div>
                         <div className="choose animate-box">
                             <h2>Contact</h2>
-                            <form action="https://formspree.io/f/mnndedjk" method="POST">
+                            <form name="contact" netlify>
                                 <div className="row form-group">
                                     <div className="col-md-6">
                                         <input type="text" id="fname" className="form-control" placeholder="Your Name" required/>
