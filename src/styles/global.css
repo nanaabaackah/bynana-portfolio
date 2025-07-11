@@ -533,7 +533,7 @@ main {
       }
       .timeline > li > .timeline-badge {
         color: var(--back);
-        width: 50px;
+        width: 44px;
         height: 44px;
         line-height: 50px;
         font-size: 1em;
@@ -559,7 +559,7 @@ main {
       @media screen and (max-width: 992px) {
         .timeline > li > .timeline-badge {
           margin-left: -10px !important;
-          width: 44px;
+          
         }
       }
       .timeline > li > .timeline-badge i {
@@ -839,7 +839,7 @@ main {
         width: 100%;
         display: table;
         overflow: hidden;
-        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
       }
       @media screen and (max-width: 768px) {
         .work {
@@ -1932,13 +1932,14 @@ main {
         font-size: 25px;
         display: block;
         float: left;
-        width: 80%;
+        width: 85%;
         text-decoration: none;
         margin-top: 1em;
         letter-spacing: 1px;
         font-family: "Darker Grotesque", sans-serif;
         line-height: .2;
         height: fit-content;
+        padding: 1em;
       }
 
       .progress-wrap-b h3 .name-left {
@@ -1959,7 +1960,7 @@ main {
       }
       
       .progress-b {
-        width: 90%;
+        width: 70%;
         float: left;
         height: 5px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(255, 255, 255, 0.3) 0px 18px 36px -18px inset;
@@ -2008,16 +2009,16 @@ main {
         background-position: center center;
         background-repeat: no-repeat;
         position: relative;
-        height: 20px;
         width: 100%;
         display: table;
         overflow: hidden;
+
       }
 
       .work .desc {
         display: table-cell;
         vertical-align: middle;
-        height: 270px;
+        height: 150px;
         background: var(--black);
         opacity: 0.8;
         -webkit-transition: 0.3s;
@@ -2192,6 +2193,7 @@ main {
       .fh5co-heading h1{
         font-size: 1em;
         padding: 0em 1em;
+        margin-top: 1.5em;
       }
 
       .oppot, 
