@@ -60,7 +60,7 @@ function Contact() {
                         <div className="choose animate-box">
                             <h2>Contact</h2>
                             <form name="contact" netlify>
-                                <div className="row form-group">
+                                <div className="row form-group"  aria-describedby="form-feedback">
                                     <div className="col-md-6">
                                         <input type="text" id="fname" className="form-control" placeholder="Your Name" required/>
                                     </div>
